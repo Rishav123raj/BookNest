@@ -1,3 +1,5 @@
+package com.example.BookNest.repository;
+
 import com.example.BookNest.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

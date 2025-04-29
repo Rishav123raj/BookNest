@@ -1,3 +1,5 @@
+package com.example.BookNest.controller;
+
 import com.example.BookNest.model.User;
 import com.example.BookNest.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;

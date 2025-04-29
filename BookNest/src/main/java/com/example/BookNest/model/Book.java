@@ -9,17 +9,15 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 import lombok.experimental.Accessors;
 import org.hibernate.Hibernate;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Table;
-import jakarta.persistence.Column;
-import jakarta.persistence.Id;
-@Entity
-public class User {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
 
-    private String name;
-    private String email;
-    private String password;
+@Entity
+public class Book {
+    @Id
+    @GeneratedValue
+    private Long id;
+    private String title;
+    private String author;
+    private String genre;
+    private String description;
+    private double price;
 }
